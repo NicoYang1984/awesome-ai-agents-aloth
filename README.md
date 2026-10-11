@@ -38,6 +38,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework. Agents with roles, goals, and backstories.
 - [DeerFlow](https://github.com/bytedance/deer-flow) — ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, sandboxes, memory, tools, and skills for tasks spanning minutes to hours. Hit #1 GitHub Trending with v2.0 (Feb 2026).
 - [dimos](https://github.com/dimensionalOS/dimos) — Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.
+- [firstmate](https://github.com/kunchenguid/firstmate) — Agent distro for running a crew of coding agents. You talk to one "first mate" that spawns autonomous workers, gives each a clean git worktree, supervises them to completion, and hands back PRs or approved local merges. Nothing to install: the cloned repo (AGENTS.md, skills, helper scripts) runs inside Claude Code, Codex, Pi, OpenCode, Grok, or Cursor Agent CLI, with every worker visible in a tmux, Herdr, or Zellij pane. MIT.
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) — Google's open-source, code-first Python framework for building multi-agent systems with A2A support.
 - [Harmonist](https://github.com/GammaLabTechnologies/harmonist) — Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
@@ -128,8 +129,9 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) — ByteDance's multimodal AI agent stack for desktop automation.
 
 ### Research Agents
-- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent for deep research on any topic using any LLM.
 - [autoresearch](https://github.com/karpathy/autoresearch) — Andrej Karpathy's open-source framework for running AI agents that autonomously conduct research on single-GPU model training experiments overnight.
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent for deep research on any topic using any LLM.
+- [OpenResearch](https://github.com/alphaXiv/OpenResearch) — alphaXiv's local-first harness and desktop workspace that turns coding agents (Claude Code, Codex, OpenCode, Cursor, Antigravity) into research agents. Literature search across alphaXiv, bioRxiv, and PubMed; experiments on local or remote compute (SSH, Slurm, Kubernetes, Modal, Ray, Hugging Face Jobs); and a local SQL record of every experiment so agents can learn from past runs. MIT.
 - [Perplexica](https://github.com/ItzCrazyKns/Perplexica) — Open-source AI-powered answering engine (Perplexity alternative).
 
 ## Platforms & Low-Code
@@ -176,6 +178,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Graft](https://github.com/trailhq/Graft) — Open-source context layer that builds a code knowledge graph so coding agents read only the blast radius of a change. Nanonets reports 46% fewer tool calls, 42% token savings, and +12 points correctness against cold Claude Code. MCP server, `graft grep`/`graft map`/`graft viz` CLI, monorepo support, and a PR blast-radius review GitHub App. MIT.
 - [NotFair](https://github.com/nowork-studio/NotFair) — Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 - [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
+- [OpenWiki](https://github.com/langchain-ai/openwiki) — LangChain's CLI that writes and maintains a linked Markdown wiki of your codebase for coding agents. Tracks each fact back to source evidence so updates only touch what changed, and links wikis across related repos for search over MCP. Integrates with Codex, Claude Code, OpenCode, Cursor, GitHub Copilot CLI, Kiro, and Pi. MIT.
 - [ponytail](https://github.com/DietrichGebert/ponytail) — Agent skill that pushes coding agents toward the smallest working solution instead of over-building. Installs as a plugin or rules file across 20 agents (Claude Code, Cursor, Codex, and more). Benchmarked against a no-skill baseline on real agentic sessions: ~54% less code and ~22% fewer tokens with every safety guard intact. MIT.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 - [re_gent](https://github.com/regent-vcs/re_gent) — Version control purpose-built for AI coding agent activity. Auto-captures every agent turn (Claude Code, Codex, OpenCode) as an inspectable step, with `rgt log`, `rgt blame`, and `rgt show` for auditable, prompt-level history alongside your existing git workflow.
